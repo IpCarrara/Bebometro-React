@@ -1,0 +1,201 @@
+body {
+    position:relative;
+    }
+
+    .divmargin {
+	
+        padding-top:63px;
+    }
+    .negrito {
+        font-weight:bold !important;
+    }
+    
+    /* NavBar */
+
+    #logoNavBar {
+        position:relative;
+        margin-top:0px;
+        padding:0px;
+        top: -10px;
+        width: 40px; 
+        height: 40px;
+    }
+    
+    .logoEscrito {
+        
+        font-weight:bold;
+        position:relative;
+        top: 5px;
+        
+    }
+   
+      .nav-link:focus {
+        color: white !important;
+        background-color:rgb(254, 193, 40) !important;
+      }
+
+    /* HeaderJumbotron */
+    
+    .jumbotronConteiner {
+        margin-top:100px;
+    }
+
+    .jumbotron {
+        background-image: url(imagens/Fundo2.jpg);
+        background-size: cover;
+        color:white;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    @media screen and (min-width: 200px) {
+      .tituloJumbotron {
+         
+         font-size: 14vw !important;
+         width:"100%";
+         text-align:center;
+         margin:0px;
+         padding:0px;
+         text-shadow: 2px 2px black; 
+      }
+    }
+    
+    @media screen and (min-width: 1000px) {
+      .tituloJumbotron {
+        font-size: 12vw !important;;
+        width:"100%";
+        text-align:center;
+        margin:0px;
+        padding:0px;
+        text-shadow: 2px 2px black;
+      }
+    }
+    
+    @media screen and (min-width: 200px) {
+      .subJumbText {
+         font-size: 6vw !important;
+         width:"100%";
+         text-align:center;
+         margin:0px;
+         padding:0px;
+         text-shadow: 2px 2px black; 
+ 
+      }
+    }
+
+    @media screen and (min-width: 700px) {
+      .subJumbText {
+         font-size: 3.5vw !important;
+         width:"100%";
+         text-align:center;
+         margin:0px;
+         padding:0px;
+         text-shadow: 2px 2px black; 
+ 
+      }
+    }
+    
+    @media screen and (min-width: 1000px) {
+      .subJumbText {
+         font-size: 2.5vw !important;
+         width:"100%";
+         text-align:center;
+         margin:0px;
+         padding:0px;
+         text-shadow: 2px 2px black; 
+ 
+      }
+    }
+
+    /* Content */
+
+    #aboutTitulo {
+        margin:0;
+        width:100%;
+        text-align:center;
+    }
+    
+    #aboutDescricao {
+        margin:0;
+        margin-top:12px;
+        width:100%;
+        text-align:center;
+    }
+    
+    .cardsSize {
+        width: 13rem;
+        margin:0;
+        margin-top:30px;
+        margin-left:20%;
+        border-radius:25px !important;
+        border-color:#eeeeee !important;
+        text-align: center;
+    }
+        
+     /* Download */
+
+    #divDownload {
+        margin:auto;
+        margin-top:30px;
+        padding:0px;
+        height:528px;
+        background-color: rgb(254, 193, 40);
+        
+    }
+    
+    .downloadButton {
+        width: 300px;
+        margin-left:4px;
+        margin-bottom:5px;
+    }
+    
+    .downloadButton:hover {
+        opacity:0.8;
+     
+    }
+    
+    #qrCode {
+        width:130px;
+        margin-left:87px;
+        
+    }
+    
+    .centralDownload {
+        position:relative;
+        margin:auto;
+        width:100%;
+        
+    }
+    
+    .divCentral {
+      margin:0, auto;
+      margin-top:280px !important;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+        
+    }
+    
+    .textoDownload {
+        font-size:18px;
+        text-align:center
+        
+    }
+    
+    .textoDownload2 {
+        margin-top:7px;
+        font-size:15px;
+        text-align:center
+    }
+    
+    .divCentral2 {
+      margin-left:1%;
+      margin-right:3%;
+      
+    }
+    
+    
+    
+    
+  
+    
